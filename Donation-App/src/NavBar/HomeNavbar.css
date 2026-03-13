@@ -1,0 +1,26 @@
+.cont{
+    background-color: rgb(63, 54, 54);
+    height: 50px;
+    margin: 0px;
+    padding: 0px;
+}
+.cont ul{
+    display: flex;
+    gap: 30px;
+    justify-content: end;
+    align-items: center;
+    list-style: none;
+    padding-top: 15px;
+}
+.cont ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+ul li a:hover {
+  color: cyan;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
