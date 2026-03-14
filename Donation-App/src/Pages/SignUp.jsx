@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import "./SignUp.css"
+import HomeNavbar from '../NavBar/HomeNavbar';
 import { useNavigate } from 'react-router-dom';
 
 const SignUp = () => {
@@ -14,6 +15,7 @@ const SignUp = () => {
     }
   return (
     <div>
+        <HomeNavbar/>
         <div className="form">
             <h1>Select The Role</h1>
             <button onClick={()=>{
