@@ -1,0 +1,43 @@
+.text h1{
+    justify-self: center;
+    margin: 20px;
+}
+.Images{
+    display: flex;
+    margin: 20px;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: 
+        opacity 1s ease,
+        transform 1s ease;
+}
+.Images.show{
+    opacity: 1;
+    transform: translateY(0);
+}
+.Images .img1 img{
+    width: 500px;
+    height: 300px;
+    padding: 40px;
+    cursor: pointer;
+    transition: transform 0.4s ease;
+}
+.img1 img:hover{
+    transform: translateY(-10px);
+}
+
+.img1{
+    height: 400px;
+    width: 1800px;
+    display: flex;
+}
+.Images .img1 p{
+    width: 500px;
+    height: 300px;
+    padding: 40px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+::-webkit-scrollbar {
+  display: none;
+}
