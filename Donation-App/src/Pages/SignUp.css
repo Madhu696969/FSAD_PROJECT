@@ -1,0 +1,42 @@
+.form{
+    border: 2px solid rgb(129, 109, 109);
+    width: 400px;
+    height: 200px;
+    justify-self: center;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: #b8dc70;
+    animation: formSlide 0.9s ease forwards;
+}
+
+@keyframes formSlide{
+    from{
+        transform: translateY(30px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.form h1{
+    justify-self: center;
+    padding: 20px;
+}
+.form button{
+    width: 100px;
+    height: 40px;
+    margin: 20px;
+    margin-left: 60px;
+    background-color: rgb(147, 243, 243);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+button:hover{
+    background-color: aqua;
+    transform: scale(1.05);
+}
+body{
+    transition: background-color 0.5s ease;
+}

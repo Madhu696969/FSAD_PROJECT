@@ -1,0 +1,38 @@
+.form1{
+    border: 2px solid rgb(229, 158, 158);
+    width: 350px;
+    padding: 30px;
+    border-radius: 10px;
+     box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    gap: 10px;
+    background-color: #e8ebe4;
+    margin-left: 450px;
+    animation: smooth 0.3s ease forwards;
+}
+@keyframes smooth{
+    from{
+        transform: translateY(30px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+input{
+    height:30px ;
+}
+.form1 p,input,select,button{
+    margin: 0px 10px 0px 10px;
+    padding: 0px;
+}
+input{
+    margin-bottom: 20px;
+}
+button{
+    cursor: pointer;
+}
