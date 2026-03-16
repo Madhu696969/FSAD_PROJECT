@@ -38,7 +38,7 @@ const LandingPage = () => {
         <h1 className="show" style={{paddingLeft:"59px"}}>How it works</h1>
         <div className={`Images ${idx === text.length ? "show" : ""}`}>
             <div className="img1">
-                <img src="https://ichef.bbci.co.uk/news/1024/branded_news/0967/live/3689ab80-a1d6-11ef-a4fe-a3e9a6c5d640.jpg" alt="" />
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShqFrE1OoBIS_f-Bkx1BhxSJJha3WPHZRZ0Q&s" alt="" />
                 <p>The platform brings together donors, recipients, administrators, and logistics coordinators in a well-organized system. Donors can list items they wish to contribute, recipients can request essential supplies, and logistics coordinators help manage transportation and delivery. Administrators oversee donation drives and ensure the entire process remains transparent and efficient. Through this collaborative approach, the platform simplifies the process of giving and receiving help, making humanitarian support more accessible.</p>
             </div>
         </div>

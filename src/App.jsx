@@ -8,6 +8,8 @@ import ConsumerForm from "./Pages/ConsumerForm"
 import SignIn from "./Pages/SignIn";
 import DonorHomePage from "./Components/Donor/DonorHomePage";
 import DonateItem from "./Components/Donor/DonateItem";
+import Feedback from "./Components/Donor/Feedback";
+import DonorHelp from "./Components/Donor/DonorHelp";
 
 const App = () => {
   return (
@@ -21,6 +23,8 @@ const App = () => {
         <Route path="/signin" element={<SignIn/>} />
         <Route path="/donor" element={<DonorHomePage/>} />
         <Route path="/donor/donateitem" element={<DonateItem/>} />
+        <Route path="/donor/Feedback" element={<Feedback/>} />
+        <Route path="/donor/help" element={<DonorHelp/>}/>
       </Routes>
     </Router>
   );
