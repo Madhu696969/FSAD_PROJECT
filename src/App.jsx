@@ -13,6 +13,8 @@ import DonorHelp from "./Components/Donor/DonorHelp";
 import ConsumerDashBoard from "./Components/Consumer/ConsumerDashBoard";
 import AvailableDonations from "./Components/Consumer/AvailableDonations";
 import MyRequests from "./Components/Consumer/MyRequests";
+import FeedBack from "./Components/Consumer/FeedBack";
+import ConsumerHelp from "./Components/Consumer/ConsumerHelp";
 
 const App = () => {
   return (
@@ -31,6 +33,8 @@ const App = () => {
         <Route path="/consumer" element={<ConsumerDashBoard/>} />
         <Route path="/consumer/donations" element={<AvailableDonations/>} />
         <Route path="/consumer/requests" element={<MyRequests/>} />
+        <Route path="/consumer/Feedback" element={<FeedBack/>}/>
+        <Route path="/consumer/help" element={<ConsumerHelp/>}/>
       </Routes>
     </Router>
   );

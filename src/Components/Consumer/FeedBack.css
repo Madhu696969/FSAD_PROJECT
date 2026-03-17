@@ -11,7 +11,7 @@
     border: 2px solid rgb(241, 193, 193);
     margin: 80px;
     padding: 20px;
-    animation: smooth 3s ease forwards;
+    animation: smooth 0.6s ease forwards;
     background-color: #f3e4f5;
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.2);
