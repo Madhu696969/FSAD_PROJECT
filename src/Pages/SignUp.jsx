@@ -22,10 +22,10 @@ const SignUp = () => {
             <h1>Select The Role</h1>
             <button onClick={()=>{
                 {checkRole("Donor")}
-            }}>Donor</button>
+            }} style={{color:"black"}}>Donor</button>
             <button onClick={()=>{
                 {checkRole("Consumer")}
-            }}>Consumer</button>
+            }} style={{color:"black"}}>Consumer</button>
         </div>
     </div>
   )

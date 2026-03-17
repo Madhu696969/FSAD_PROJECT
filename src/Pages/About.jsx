@@ -10,7 +10,7 @@ const About = () => {
         const t=setTimeout(()=>{
             setTxt((prev)=>prev+text[idx]);
             setIdx(prev=>prev+1);
-        },100);
+        },30);
         if(idx===text.length){
             clearInterval(t);
         }
@@ -19,18 +19,17 @@ const About = () => {
   return (
     <div className="cont">
         <HomeNavbar/>
-        <div className="main">
+        <div className="A-main">
             <h1>About Our WebSite</h1>
             <div className="box">
-                <img src="https://blog.bankbazaar.com/wp-content/uploads/2018/05/Cyclone-Fani-How-You-Can-Help-_Thumbnail.png" alt="" />
+                <img style={{cursor:'pointer'}} src="https://blog.bankbazaar.com/wp-content/uploads/2018/05/Cyclone-Fani-How-You-Can-Help-_Thumbnail.png" alt="" />
                 <p>{txt}</p>
             </div>
-        </div>
         <h1>How To Use Our Website</h1>
         <div className="Donor">
             <h2 style={{color:"black" , paddingLeft:"80px"}}>If You Are a Donor</h2>
             <div className="Box">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFZKXG4saaW3zyv3F9paphY8YYytP-mlq3xw&s" alt="" />
+                <img style={{width:"500px" ,cursor:"pointer"}} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFZKXG4saaW3zyv3F9paphY8YYytP-mlq3xw&s" alt="" />
                 <div className="pcont">
                     <h3 style={{paddingTop:"30px"}}>Steps to Follow :- </h3>
                     <p>1. Create a Donor Account by registering on the platform with your basic details.</p>
@@ -44,7 +43,7 @@ const About = () => {
         <div className="Donor">
             <h2 style={{color:"black" , paddingLeft:"80px"}}>If You Are a Consumer</h2>
             <div className="Box">
-                <img src="https://img.freepik.com/free-photo/close-up-volunteers-with-food-donations_23-2149196112.jpg?semt=ais_hybrid&w=740&q=80" alt="" />
+                <img style={{width:"500px" ,cursor:"pointer"}} src="https://img.freepik.com/free-photo/close-up-volunteers-with-food-donations_23-2149196112.jpg?semt=ais_hybrid&w=740&q=80" alt="" />
                 <div className="pcont">
                     <h3 style={{paddingTop:"30px"}}>Steps to Follow :- </h3>
                     <p>1. Create a Consumer Account by registering on the platform.</p>
@@ -54,6 +53,7 @@ const About = () => {
                     <p>5. If the item is not available, you can submit a request form specifying what you need.</p>
                 </div>
             </div>
+        </div>
         </div>
     </div>
   )

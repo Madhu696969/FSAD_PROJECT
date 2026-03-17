@@ -19,7 +19,7 @@ const ConsumerHelp = () => {
   return (
     <div>
         <ConsumerNavbar/>
-        <div className="main">
+        <div className="Help">
         <img style={{width:"250px",marginLeft:"500px",marginTop:"30px",cursor:"pointer"}} src="https://thumbs.dreamstime.com/b/help-wanted-vector-clip-art-31368648.jpg" alt="" />
             <h1 style={{margin:"40px",justifySelf:"center"}}>{txt}</h1>
         <div className="h-Cont">
