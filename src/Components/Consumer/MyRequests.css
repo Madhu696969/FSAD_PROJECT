@@ -1,0 +1,14 @@
+.R-cont{
+    animation: smooth 3s ease forwards;
+}
+@keyframes smooth {
+    from{
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    
+}

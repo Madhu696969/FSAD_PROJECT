@@ -8,7 +8,7 @@ const ConsumerNavbar = () => {
             <div className="cont">
                 <ul>
                     <li><Link to="/consumer">Home</Link></li>
-                    <li><Link to="/consumer/donatione">Available Donations</Link></li>
+                    <li><Link to="/consumer/donations">Available Donations</Link></li>
                     <li><Link to="/consumer/requests">My Requests</Link></li>
                     <li><Link to="/consumer/Feedback">FeedBack</Link></li>
                     <li><Link to="/consumer/help">Help</Link></li>

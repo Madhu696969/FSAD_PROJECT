@@ -11,6 +11,8 @@ import DonateItem from "./Components/Donor/DonateItem";
 import Feedback from "./Components/Donor/Feedback";
 import DonorHelp from "./Components/Donor/DonorHelp";
 import ConsumerDashBoard from "./Components/Consumer/ConsumerDashBoard";
+import AvailableDonations from "./Components/Consumer/AvailableDonations";
+import MyRequests from "./Components/Consumer/MyRequests";
 
 const App = () => {
   return (
@@ -26,7 +28,9 @@ const App = () => {
         <Route path="/donor/donateitem" element={<DonateItem/>} />
         <Route path="/donor/Feedback" element={<Feedback/>} />
         <Route path="/donor/help" element={<DonorHelp/>}/>
-        <Route path="consumer" element={<ConsumerDashBoard/>} />
+        <Route path="/consumer" element={<ConsumerDashBoard/>} />
+        <Route path="/consumer/donations" element={<AvailableDonations/>} />
+        <Route path="/consumer/requests" element={<MyRequests/>} />
       </Routes>
     </Router>
   );
