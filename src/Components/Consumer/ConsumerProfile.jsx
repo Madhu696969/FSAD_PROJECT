@@ -17,7 +17,7 @@ const ConsumerProfile = () => {
     return (
         <div>
             <ConsumerNavbar />
-            <div className="card">
+            <div className="card1">
                 <div className="box">
                     <img style={{ width: "150px", height: "150px" }} src="https://png.pngtree.com/png-clipart/20230927/original/pngtree-man-avatar-image-for-profile-png-image_13001877.png" alt="" />
                     <div className="p-Cont">
