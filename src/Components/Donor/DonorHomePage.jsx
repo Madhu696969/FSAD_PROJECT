@@ -31,7 +31,7 @@ const DonorHomePage = () => {
         </div>
         <h1 style={{marginLeft:"80px"}}>Need Assistance?</h1>
         <div className={`cont3 ${idx===text.length ?"show" : ""}`}>
-            <img style={{paddingTop:"60px"}}  src="https://lh4.googleusercontent.com/proxy/WEjb22fu2KO1wB2ikxv9Mw5gBxXcGZ8R3TEQwMnf7_H7NjpiDoaMoE8Mj4GohTNS8RxUTlrHUxXzo2GRXkQBQQLxW8pHbo2qjx2PiteNpqZSbe_gcfd46ofMFLT7q_BBkQf0_7-JFT6rbWc8kH0NQM8" alt="" />
+            <img style={{paddingTop:"60px"}}  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2CTOW1lBbfVyhRpGOGx9QHcuk_XvJkR5Hug&s" alt="" />
             <p>If you are unsure how to donate or need guidance, you can visit the Help section where we provide step-by-step instructions on how to add donations and manage requests. You can also share your experience through the Feedback section, which helps us improve the platform and serve the community better.</p>
         </div>
     </div>
