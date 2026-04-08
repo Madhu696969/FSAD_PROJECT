@@ -1,0 +1,39 @@
+.form1 textarea {
+  width: 100%;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 8px;
+  border: 1px solid gray;
+  resize: none;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(241, 193, 193);
+    margin: 80px;
+    padding: 20px;
+    animation: smooth 3s ease forwards;
+    background-color: #f3e4f5;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+@keyframes smooth {
+    from{
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    
+}
+.card h1{
+    padding-left: 400px;
+}
+.card p{
+    font-size: 20px;
+}
+.card h3{
+    margin:20px 180px;
+}

@@ -1,0 +1,26 @@
+import React from 'react'
+import "./SignUp.css"
+import HomeNavbar from '../NavBar/HomeNavbar';
+import { useNavigate } from 'react-router-dom';
+
+// SignUp only selects a role and redirects to the matching registration form.
+// The actual API call happens in DonorForm / ConsumerForm.
+const SignUp = () => {
+    const navigate = useNavigate();
+    const checkRole = (role) => {
+        if (role === "Donor") navigate("/donorform");
+        if (role === "Consumer") navigate("/consumerform");
+    };
+    return (
+        <div>
+            <HomeNavbar />
+            <div className="form">
+                <h1>Select The Role</h1>
+                <button onClick={() => checkRole("Donor")} style={{ color: "black" }}>Donor</button>
+                <button onClick={() => checkRole("Consumer")} style={{ color: "black" }}>Consumer</button>
+            </div>
+        </div>
+    );
+};
+
+export default SignUp;
