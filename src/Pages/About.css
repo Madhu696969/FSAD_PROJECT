@@ -1,0 +1,40 @@
+.cont h1{
+    justify-self: center;
+    margin-top: 20px;
+    color: rgb(177, 124, 223);
+}
+.box{
+    display: flex;
+    gap: 40px;
+    width: 1200px;
+    margin-left: 30px;
+    transition: transform 1s ease;
+}
+.box{
+    transform: translateY(0);
+}
+.box img,p{
+    padding: 50px;
+}
+.box p{
+    color: rgb(5, 6, 7);
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Box{
+    display: flex;
+    gap:30px;
+    width: 1200px;
+}
+.Box h1{
+    justify-self:left
+}
+.Box img{
+    padding: 50px;
+    width: 900px;
+    height: 400px;
+}
+.Box p{
+    margin-top: 50px;
+    padding: 0px;
+}
